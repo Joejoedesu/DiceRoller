@@ -1,0 +1,1882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>E:\Stanford School\EE 156\Assignment\Project\Dice_Roller_SAMD\Dice_Roller_SAMD.kicad_sch</source>
+    <date>12/24/2023 9:42:01 AM</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Test sheet</title>
+        <company>blame- steven.clark@stanford.edu</company>
+        <rev>0.1</rev>
+        <date/>
+        <source>Dice_Roller_SAMD.kicad_sch</source>
+        <comment number="1" value="Stanford, CA 94305-9505"/>
+        <comment number="2" value="350 Jane Stanford Way"/>
+        <comment number="3" value="Electrical Engineering Department"/>
+        <comment number="4" value="EE 156 / Stanford University"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SAMD_51.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Module.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>MC3479:G-21_MUR</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>c6aee948-67e8-4fb8-9c2f-0e4c9432a862</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>MC3479:G-21_MUR</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>0905da5c-874e-4ef3-aeda-0866c7b88904</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>MC3479:G-21_MUR</footprint>
+      <fields>
+        <field name="REV">B</field>
+      </fields>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="REV" value="B"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>9319aad7-bd2b-49c5-bdf6-f6f89947c46a</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_CAP_CERAMIC0603_NO" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>e179f9ba-dcf6-462e-854f-46f6be12b533</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_CAP_CERAMIC0603_NO" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>67726d90-f29c-4b4c-9a36-75c3acfb90df</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_CAP_CERAMIC0603_NO" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>dc64ace4-22e4-43a1-b51d-1b06df7e0ed8</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>MC3479:G-21_MUR</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>91d9311e-2b7d-48ac-af74-7ab32d686f9b</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_CAP_CERAMIC0603_NO" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>faa42a85-e73c-42f1-b9b4-7f920c0c52eb</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_CAP_CERAMIC0603_NO" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>9cfadab3-d39a-4aec-815c-2a7fa5c36fc8</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_CAP_CERAMIC0603_NO" description=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>ca5f210e-2503-4885-b3a6-c9f8aca1cff8</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>MC3479:G-21_MUR</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_CAP_CERAMIC0805-NOOUTLINE" description=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>8c4a6cce-2ce8-4d21-b8fb-31b36319f5df</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_CAP_CERAMIC0603_NO" description=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>4508d6f2-d2f9-4705-92f8-2acc88ea51ad</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_CAP_CERAMIC0603_NO" description=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>276505f7-dcbf-4954-9a14-8e601daf5f8c</tstamps>
+    </comp>
+    <comp ref="CHG1">
+      <value>ORANGE</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_LED0805_NOOUTLINE" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>9477559f-2162-4a07-9e73-3c73398726d3</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>MBR054</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_DIODE-SCHOTTKYSOD-123" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>088f1cbb-35d5-4335-a516-9eb24477e790</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB_C_Receptacle_USB2.0</value>
+      <footprint>Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="Connector" part="USB_C_Receptacle_USB2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <property name="ki_description" value="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>0412242a-b1eb-41bd-a3ca-813cd3a27995</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x05</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>793d8d7a-a32c-4f4d-b541-8f73ecce8de5</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>10uH</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>3739b7f9-e16e-4108-9aac-05059cafaa72</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>~</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="WS2812B3535" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>ca58ddeb-f0a0-4740-ac0d-9439644d5423</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>DMG3415</value>
+      <footprint>MC3479:SOT95P240X105-3N</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/diodes-incorporated/DMG3415U-7/2052768</datasheet>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_MOSFET-P" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>1b60e91d-c1ae-4a09-8973-b9b2c81ef280</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>9575f8ea-0fba-4517-9512-5d5d38622cb2</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>e921b723-7e76-4a00-af53-957cd0956196</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>73b6bef1-ee88-4466-b492-35af715eb4c7</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>796a97bf-ad01-4d12-b5d5-d97cef43d660</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>5.1K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_RESISTOR_0603_NOOUT" description=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>e55a2d76-c4df-4cee-9fdc-515b2002a5f6</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>10be2132-4cde-4f8b-b06b-9f72b6157d9d</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>8d01af89-5c34-4c42-bd2c-d7b548f8b91f</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>9fba580d-13cd-43f7-8920-4f714766b89d</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>89a22aa9-6e44-4186-98a9-38ec460ba1e0</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>03e4cf7d-0338-40cc-b2b5-cdbe51d1b0c5</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>5b551dc9-811b-40c8-9b59-d3532a8f3c2d</tstamps>
+    </comp>
+    <comp ref="RST1">
+      <value>~</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2</footprint>
+      <libsource lib="" part="SWITCH_TACT_SMT_1" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>a892141c-a9d1-4978-ba67-e3e1ca4667fa</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>TESTPOINTROUND1.5MM</value>
+      <footprint>TestPoint:TestPoint_Pad_1.5x1.5mm</footprint>
+      <libsource lib="" part="microbuilder_TESTPOINTROUND1.5MM_1" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>c2196692-8cac-4996-a8a9-10f14c9845e7</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TESTPOINTROUND1.5MM</value>
+      <footprint>TestPoint:TestPoint_Pad_1.5x1.5mm</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_TESTPOINTROUND1.5MM" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>430073f7-02f1-4375-8fa0-6ffdd7ab3e3d</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ATSAMD51J20A-A</value>
+      <footprint>Package_QFP:TQFP-64_10x10mm_P0.5mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf</datasheet>
+      <libsource lib="MCU_Microchip_SAMD" part="ATSAMD51J20A-A" description="SAM D51 Microchip SMART ARM Cortex-M4F-based MCU, 1024K Flash, 256K SRAM, TQFP-64"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <property name="ki_description" value="SAM D51 Microchip SMART ARM Cortex-M4F-based MCU, 1024K Flash, 256K SRAM, TQFP-64"/>
+      <property name="ki_keywords" value="32-bit ARM Cortex-M4F MCU Microcontroller"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>905f7b4c-45fd-4a76-854f-741632a85455</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>25Q16</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_SPIFLASH_8PIN" description=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>e23a34a4-6a9c-4bad-a479-4f3ec79e0fbb</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MCP73831T-2ACI/OT</value>
+      <footprint>MC3479:SOT-23-5_MC_MCH</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_MCP73831/2" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>f4044263-125b-4b74-b724-838445059a3a</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>AP2112-3.3</value>
+      <footprint>MC3479:SOT_RG1_DIO</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_VREG_SOT23-5" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>2d821bc6-dbb5-4c89-a5e7-6418fe463c05</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>JSTPH</value>
+      <footprint>MC3479:CONN2_B2B-PH-K-S_JST</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_CON_JST_PH_2PIN" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>b7c46379-acb8-465d-bfd1-9419bfc6d5df</tstamps>
+    </comp>
+    <comp ref="X2">
+      <value>32.768</value>
+      <footprint>MC3479:XTAL_ECS-31B_ECS</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="adafruit2_XTAL-3.2X1.5" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="SAMD_51"/>
+      <property name="Sheetfile" value="SAMD_51.kicad_sch"/>
+      <sheetpath names="/SAMD_51/" tstamps="/bfbeca71-6807-4aa8-af51-a3e339382d8e/"/>
+      <tstamps>f4770662-710b-406d-b60a-db4543b0d6a0</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>3e6a9fdd-9309-4d81-9fb7-0e03a889ae1e</tstamps>
+    </comp>
+    <comp ref="CHG2">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_LED0805_NOOUTLINE" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>206f32a9-62d7-46ed-8963-0fe425e66c18</tstamps>
+    </comp>
+    <comp ref="CHG3">
+      <value>ORANGE</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_LED0805_NOOUTLINE" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>1918202b-c57f-48b4-81db-38ca27a2a1ed</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>QSB34CGR</value>
+      <footprint>MC3479:XDCR_QSB34CGR</footprint>
+      <fields>
+        <field name="MANUFACTURER">Onsemi</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.8</field>
+        <field name="PARTREV">9</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="QSB34CGR" part="QSB34CGR" description=""/>
+      <property name="PARTREV" value="9"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.8"/>
+      <property name="MANUFACTURER" value="Onsemi"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>235a9879-6b2d-46f7-a805-6d0204d2ac04</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x11</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x11" description="Generic connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Generic connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>b1e61230-7aa1-4fd9-be59-df78d85b8bd2</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <libsource lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_LED0805_NOOUTLINE" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>0f662d7e-ec5f-455b-9105-2aa39e10bff2</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>Motor_DC</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Motor" part="Motor_DC" description="DC Motor"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="DC Motor"/>
+      <property name="ki_keywords" value="DC Motor"/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>c0b885d3-12f8-4e35-80b5-d8989a4edfc9</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>f448cacc-43e4-406a-b256-277091948764</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>801e188f-9942-4ad3-a5a3-7fc643d366a8</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>e5bf2061-a687-47f5-8d44-a166ab9c2fd1</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>72be1729-ab0d-4aaa-a779-9a6701d6c69e</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>4.7K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>c6838635-83ff-4fd1-975a-ff7e53359925</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>9ed3a25f-d776-4a29-8821-7c9c21f86327</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>fc43ac86-cb87-4875-9a5a-b8da627fc865</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>a0e0065b-ba07-43e0-8af4-5bd2dc7fca2d</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>18baf898-7db1-41cc-961e-eba42e034e48</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>fc4d593f-ffa3-4dd6-88c2-59c3729d08bb</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>0604b0a5-7334-4792-82a2-e64028a452b3</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>e59eb26f-9bfa-4029-a1f9-dbc011cb2908</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>~</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2</footprint>
+      <libsource lib="" part="SWITCH_TACT_SMT_1" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>0e310ca8-9f35-4daf-90d8-836c03f02769</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>~</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2</footprint>
+      <libsource lib="" part="SWITCH_TACT_SMT_1" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>eda63afd-8651-474b-853a-448a9c46cd98</tstamps>
+    </comp>
+    <comp ref="SW4">
+      <value>~</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2</footprint>
+      <libsource lib="" part="SWITCH_TACT_SMT_1" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>e84cd6e1-2b01-418b-8129-7147219e11ad</tstamps>
+    </comp>
+    <comp ref="SW5">
+      <value>~</value>
+      <footprint>Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2</footprint>
+      <libsource lib="" part="SWITCH_TACT_SMT_1" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>29e35057-045b-46a6-a7af-8055c0cf787d</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>MC3479</value>
+      <footprint>MC3479:MC3479_MEM</footprint>
+      <datasheet>https://www.memsic.com/Public/Uploads/uploadfile/files/20220522/MC3479Datasheet(APS-048-0072v1.2).pdf</datasheet>
+      <libsource lib="2023-10-30_07-51-34" part="MC3479" description=""/>
+      <property name="Description" value=""/>
+      <property name="MFR" value=""/>
+      <property name="MFR SN" value=""/>
+      <property name="Supplier1" value=""/>
+      <property name="Supplier1 SN" value=""/>
+      <property name="Sheetname" value="Module"/>
+      <property name="Sheetfile" value="Module.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_keywords" value="MC3479"/>
+      <sheetpath names="/Module/" tstamps="/c901d1d0-6d87-419d-910b-9fd73eb0d8dc/"/>
+      <tstamps>4969199d-450d-4823-89c1-a746729386ae</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="SWITCH_TACT_SMT_1">
+      <fields>
+        <field name="Reference">SW6</field>
+        <field name="Value">~</field>
+        <field name="Footprint">Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="microbuilder_TESTPOINTROUND1.5MM_1">
+      <fields>
+        <field name="Reference">TP1</field>
+        <field name="Value">TESTPOINTROUND1.5MM</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.5x1.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P$1" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="2023-10-30_07-51-34" part="MC3479">
+      <docs>MC3479</docs>
+      <footprints>
+        <fp>MC3479_MEM</fp>
+        <fp>MC3479_MEM-M</fp>
+        <fp>MC3479_MEM-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC3479</field>
+        <field name="Footprint">MC3479_MEM</field>
+        <field name="Datasheet">MC3479</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCK_SCL" type="unspecified"/>
+        <pin num="2" name="CSN" type="unspecified"/>
+        <pin num="3" name="DOUT_A6" type="unspecified"/>
+        <pin num="4" name="DIN_SDA" type="unspecified"/>
+        <pin num="5" name="NC" type="unspecified"/>
+        <pin num="6" name="GND" type="unspecified"/>
+        <pin num="7" name="VPP" type="unspecified"/>
+        <pin num="8" name="NC" type="unspecified"/>
+        <pin num="9" name="VDD" type="unspecified"/>
+        <pin num="10" name="NC" type="unspecified"/>
+        <pin num="11" name="INTN_2" type="unspecified"/>
+        <pin num="12" name="INTN_1" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit Feather STM32F405 Express-eagle-import" part="WS2812B3535">
+      <fields>
+        <field name="Reference">LED1</field>
+        <field name="Value">~</field>
+        <field name="Footprint">LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DO" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="DI" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit Feather STM32F405 Express-eagle-import" part="adafruit2_XTAL-3.2X1.5">
+      <fields>
+        <field name="Reference">X2</field>
+        <field name="Value">32.768</field>
+        <field name="Footprint">MC3479:XTAL_ECS-31B_ECS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P$1" type="bidirectional"/>
+        <pin num="2" name="P$2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_CAP_CERAMIC0603_NO">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">Adafruit Feather STM32F405 Express:0603-NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_CAP_CERAMIC0805-NOOUTLINE">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Footprint">Adafruit Feather STM32F405 Express:0805-NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_CON_JST_PH_2PIN">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Footprint">Adafruit Feather STM32F405 Express:JSTPH2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_DIODE-SCHOTTKYSOD-123">
+      <fields>
+        <field name="Reference">D4</field>
+        <field name="Value">MBR054</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_LED0805_NOOUTLINE">
+      <fields>
+        <field name="Reference">CHG1</field>
+        <field name="Value">ORANGE</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_MCP73831/2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">Adafruit Feather STM32F405 Express:SOT23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_in"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_MOSFET-P">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Footprint">Adafruit Feather STM32F405 Express:SOT23-R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_RESISTOR_0603_NOOUT">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Footprint">Adafruit Feather STM32F405 Express:0603-NO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_SPIFLASH_8PIN">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">Adafruit Feather STM32F405 Express:SOIC8_150MIL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SSEL" type="bidirectional"/>
+        <pin num="2" name="MISO" type="bidirectional"/>
+        <pin num="3" name="WP#/IO2" type="bidirectional"/>
+        <pin num="4" name="VSS" type="bidirectional"/>
+        <pin num="5" name="MOSI" type="bidirectional"/>
+        <pin num="6" name="SCK" type="bidirectional"/>
+        <pin num="7" name="HOLD#/IO3" type="bidirectional"/>
+        <pin num="8" name="VCC" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_TESTPOINTROUND1.5MM">
+      <fields>
+        <field name="Reference">TP2</field>
+        <field name="Value">TESTPOINTROUND1.5MM</field>
+        <field name="Footprint">TestPoint:TestPoint_Pad_1.5x1.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P$1" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit Feather STM32F405 Express-eagle-import" part="microbuilder_VREG_SOT23-5">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">Adafruit Feather STM32F405 Express:SOT23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="P4" type="bidirectional"/>
+        <pin num="5" name="OUT" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_C_Receptacle_USB2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_Receptacle_USB2.0</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="D+" type="bidirectional"/>
+        <pin num="A7" name="D-" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="passive"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="passive"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="D+" type="bidirectional"/>
+        <pin num="B7" name="D-" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="passive"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x05">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x11">
+      <description>Generic connector, single row, 01x11, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x11</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_SAMD" part="ATSAMD51J20A-A">
+      <description>SAM D51 Microchip SMART ARM Cortex-M4F-based MCU, 1024K Flash, 256K SRAM, TQFP-64</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf</docs>
+      <footprints>
+        <fp>TQFP*10x10mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATSAMD51J20A-A</field>
+        <field name="Footprint">Package_QFP:TQFP-64_10x10mm_P0.5mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA00" type="bidirectional"/>
+        <pin num="2" name="PA01" type="bidirectional"/>
+        <pin num="3" name="PA02" type="bidirectional"/>
+        <pin num="4" name="PA03" type="bidirectional"/>
+        <pin num="5" name="PB04" type="bidirectional"/>
+        <pin num="6" name="PB05" type="bidirectional"/>
+        <pin num="7" name="GNDANA" type="power_in"/>
+        <pin num="8" name="VDDANA" type="power_in"/>
+        <pin num="9" name="PB06" type="bidirectional"/>
+        <pin num="10" name="PB07" type="bidirectional"/>
+        <pin num="11" name="PB08" type="bidirectional"/>
+        <pin num="12" name="PB09" type="bidirectional"/>
+        <pin num="13" name="PA04" type="bidirectional"/>
+        <pin num="14" name="PA05" type="bidirectional"/>
+        <pin num="15" name="PA06" type="bidirectional"/>
+        <pin num="16" name="PA07" type="bidirectional"/>
+        <pin num="17" name="PA08" type="bidirectional"/>
+        <pin num="18" name="PA09" type="bidirectional"/>
+        <pin num="19" name="PA10" type="bidirectional"/>
+        <pin num="20" name="PA11" type="bidirectional"/>
+        <pin num="21" name="VDDIOB" type="power_in"/>
+        <pin num="22" name="GND" type="power_in"/>
+        <pin num="23" name="PB10" type="bidirectional"/>
+        <pin num="24" name="PB11" type="bidirectional"/>
+        <pin num="25" name="PB12" type="bidirectional"/>
+        <pin num="26" name="PB13" type="bidirectional"/>
+        <pin num="27" name="PB14" type="bidirectional"/>
+        <pin num="28" name="PB15" type="bidirectional"/>
+        <pin num="29" name="PA12" type="bidirectional"/>
+        <pin num="30" name="PA13" type="bidirectional"/>
+        <pin num="31" name="PA14" type="bidirectional"/>
+        <pin num="32" name="PA15" type="bidirectional"/>
+        <pin num="33" name="GND" type="passive"/>
+        <pin num="34" name="VDDIO" type="power_in"/>
+        <pin num="35" name="PA16" type="bidirectional"/>
+        <pin num="36" name="PA17" type="bidirectional"/>
+        <pin num="37" name="PA18" type="bidirectional"/>
+        <pin num="38" name="PA19" type="bidirectional"/>
+        <pin num="39" name="PB16" type="bidirectional"/>
+        <pin num="40" name="PB17" type="bidirectional"/>
+        <pin num="41" name="PA20" type="bidirectional"/>
+        <pin num="42" name="PA21" type="bidirectional"/>
+        <pin num="43" name="PA22" type="bidirectional"/>
+        <pin num="44" name="PA23" type="bidirectional"/>
+        <pin num="45" name="PA24" type="bidirectional"/>
+        <pin num="46" name="PA25" type="bidirectional"/>
+        <pin num="47" name="GND" type="passive"/>
+        <pin num="48" name="VDDIO" type="power_in"/>
+        <pin num="49" name="PB22" type="bidirectional"/>
+        <pin num="50" name="PB23" type="bidirectional"/>
+        <pin num="51" name="PA27" type="bidirectional"/>
+        <pin num="52" name="~{RESET}" type="input"/>
+        <pin num="53" name="VDDCORE" type="power_out"/>
+        <pin num="54" name="GND" type="passive"/>
+        <pin num="55" name="VSW" type="power_in"/>
+        <pin num="56" name="VDDIO" type="power_in"/>
+        <pin num="57" name="PA30" type="bidirectional"/>
+        <pin num="58" name="PA31" type="bidirectional"/>
+        <pin num="59" name="PB30" type="bidirectional"/>
+        <pin num="60" name="PB31" type="bidirectional"/>
+        <pin num="61" name="PB00" type="bidirectional"/>
+        <pin num="62" name="PB01" type="bidirectional"/>
+        <pin num="63" name="PB02" type="bidirectional"/>
+        <pin num="64" name="PB03" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor" part="Motor_DC">
+      <description>DC Motor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Motor_DC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="QSB34CGR" part="QSB34CGR">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">QSB34CGR</field>
+        <field name="Footprint">QSB34CGR:XDCR_QSB34CGR</field>
+        <field name="PARTREV">9</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.8</field>
+        <field name="MANUFACTURER">Onsemi</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="2023-10-30_07-51-34">
+      <uri>C:/Users/Joekua/Documents/KiCad/7.0/symbols/2023-10-30_07-51-34.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>D:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>D:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_SAMD">
+      <uri>D:\Program Files\KiCad\7.0\share\kicad\symbols\/MCU_Microchip_SAMD.kicad_sym</uri>
+    </library>
+    <library logical="Motor">
+      <uri>D:\Program Files\KiCad\7.0\share\kicad\symbols\/Motor.kicad_sym</uri>
+    </library>
+    <library logical="QSB34CGR">
+      <uri>C:/Users/Joekua/Documents/KiCad/7.0/symbols/QSB34CGR.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C13" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D2" pin="C" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="LED1" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="P" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="P" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="SW5" pin="1" pinfunction="P" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="VDDIOB" pintype="power_in"/>
+      <node ref="U1" pin="34" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="PA03" pintype="bidirectional"/>
+      <node ref="U1" pin="48" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U1" pin="56" pinfunction="VDDIO" pintype="power_in"/>
+      <node ref="U1" pin="8" pinfunction="VDDANA" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="VCC" pintype="bidirectional"/>
+      <node ref="U4" pin="5" pinfunction="OUT" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="CSN" pintype="unspecified"/>
+      <node ref="U5" pin="9" pinfunction="VDD" pintype="unspecified"/>
+    </net>
+    <net code="2" name="/Module/DC">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U1" pin="37" pinfunction="PA18" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/Module/INTN1">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="42" pinfunction="PA21" pintype="bidirectional"/>
+      <node ref="U5" pin="12" pinfunction="INTN_1" pintype="unspecified"/>
+    </net>
+    <net code="4" name="/Module/INTN2">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="43" pinfunction="PA22" pintype="bidirectional"/>
+      <node ref="U5" pin="11" pinfunction="INTN_2" pintype="unspecified"/>
+    </net>
+    <net code="5" name="/Module/LED1">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PB05" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/Module/LED2">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="PB06" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/Module/MISO">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U1" pin="49" pinfunction="PB22" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/Module/MOSI">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="50" pinfunction="PB23" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/Module/Pht">
+      <node ref="D2" pin="A" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="PA02" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/Module/RST">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="38" pinfunction="PA19" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/Module/S1">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="PA05" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/Module/S2">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="PA04" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/Module/S3">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="PB09" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/Module/S4">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="PB08" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/Module/SCK">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="PA17" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/Module/SCL">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="PA13" pintype="bidirectional"/>
+      <node ref="U5" pin="1" pinfunction="SCK_SCL" pintype="unspecified"/>
+    </net>
+    <net code="17" name="/Module/SDA">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="PA12" pintype="bidirectional"/>
+      <node ref="U5" pin="4" pinfunction="DIN_SDA" pintype="unspecified"/>
+    </net>
+    <net code="18" name="/Module/TCS">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="U1" pin="35" pinfunction="PA16" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/Module/Vib">
+      <node ref="M1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U1" pin="44" pinfunction="PA23" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/SAMD_51/D+">
+      <node ref="J1" pin="A6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U1" pin="46" pinfunction="PA25" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/SAMD_51/D-">
+      <node ref="J1" pin="A7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U1" pin="45" pinfunction="PA24" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/SAMD_51/D8_NEOPIX">
+      <node ref="LED1" pin="4" pinfunction="DI" pintype="input"/>
+      <node ref="U1" pin="64" pinfunction="PB03" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/SAMD_51/EN">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="24" name="/SAMD_51/FLASH_CS">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="PB11" pintype="bidirectional"/>
+      <node ref="U2" pin="1" pinfunction="SSEL" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/SAMD_51/FLASH_D0">
+      <node ref="U1" pin="17" pinfunction="PA08" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/SAMD_51/FLASH_D1">
+      <node ref="U1" pin="18" pinfunction="PA09" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="MISO" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/SAMD_51/FLASH_D2">
+      <node ref="U1" pin="19" pinfunction="PA10" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="WP#/IO2" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/SAMD_51/FLASH_D3">
+      <node ref="U1" pin="20" pinfunction="PA11" pintype="bidirectional"/>
+      <node ref="U2" pin="7" pinfunction="HOLD#/IO3" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/SAMD_51/FLASH_SCK">
+      <node ref="U1" pin="23" pinfunction="PB10" pintype="bidirectional"/>
+      <node ref="U2" pin="6" pinfunction="SCK" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/SAMD_51/SWCLK">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="P$1" pintype="bidirectional"/>
+      <node ref="U1" pin="57" pinfunction="PA30" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/SAMD_51/SWDIO">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="P$1" pintype="bidirectional"/>
+      <node ref="U1" pin="58" pinfunction="PA31" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/SAMD_51/V_DIV">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U1" pin="62" pinfunction="PB01" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/SAMD_51/~{RESET}">
+      <node ref="C5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="RST1" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="U1" pin="52" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="35" name="GND">
+      <node ref="C1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="C8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="CHG2" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="CHG3" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="J1" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="LED1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="M1" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="RST1" pin="2" pinfunction="S1" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="33" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="47" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="54" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="GNDANA" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="VSS" pintype="bidirectional"/>
+      <node ref="U3" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="DOUT_A6" pintype="unspecified"/>
+      <node ref="U5" pin="6" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U5" pin="7" pinfunction="VPP" pintype="unspecified"/>
+      <node ref="X1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(CHG1-C)">
+      <node ref="CHG1" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(CHG2-A)">
+      <node ref="CHG2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(CHG3-A)">
+      <node ref="CHG3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(D1-C)">
+      <node ref="C2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="C" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="40" name="Net-(J1-CC1)">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(J1-CC2)">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(L2-A)">
+      <node ref="L2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(U1-PA00)">
+      <node ref="C8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="PA00" pintype="bidirectional"/>
+      <node ref="X2" pin="2" pinfunction="P$2" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="Net-(U1-PA01)">
+      <node ref="C9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="PA01" pintype="bidirectional"/>
+      <node ref="X2" pin="1" pinfunction="P$1" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="Net-(U1-VDDCORE)">
+      <node ref="C6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="53" pinfunction="VDDCORE" pintype="power_out"/>
+    </net>
+    <net code="46" name="Net-(U1-VSW)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="55" pinfunction="VSW" pintype="power_in"/>
+    </net>
+    <net code="47" name="Net-(U3-PROG)">
+      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="PROG" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(U3-STAT)">
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="STAT" pintype="output"/>
+    </net>
+    <net code="49" name="VBAT">
+      <node ref="C1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="X1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="50" name="VBUS">
+      <node ref="CHG1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="51" name="unconnected-(J1-SBU1-PadA8)">
+      <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(J1-SBU2-PadB8)">
+      <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(J2-Pin_2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(J2-Pin_10-Pad10)">
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(J2-Pin_11-Pad11)">
+      <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(LED1-DO-Pad2)">
+      <node ref="LED1" pin="2" pinfunction="DO" pintype="output+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U1-PA06-Pad15)">
+      <node ref="U1" pin="15" pinfunction="PA06" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U1-PA07-Pad16)">
+      <node ref="U1" pin="16" pinfunction="PA07" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U1-PA14-Pad31)">
+      <node ref="U1" pin="31" pinfunction="PA14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U1-PA15-Pad32)">
+      <node ref="U1" pin="32" pinfunction="PA15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U1-PA20-Pad41)">
+      <node ref="U1" pin="41" pinfunction="PA20" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U1-PA27-Pad51)">
+      <node ref="U1" pin="51" pinfunction="PA27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U1-PB00-Pad61)">
+      <node ref="U1" pin="61" pinfunction="PB00" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U1-PB02-Pad63)">
+      <node ref="U1" pin="63" pinfunction="PB02" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U1-PB04-Pad5)">
+      <node ref="U1" pin="5" pinfunction="PB04" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U1-PB07-Pad10)">
+      <node ref="U1" pin="10" pinfunction="PB07" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U1-PB12-Pad25)">
+      <node ref="U1" pin="25" pinfunction="PB12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(U1-PB13-Pad26)">
+      <node ref="U1" pin="26" pinfunction="PB13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U1-PB14-Pad27)">
+      <node ref="U1" pin="27" pinfunction="PB14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U1-PB15-Pad28)">
+      <node ref="U1" pin="28" pinfunction="PB15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U1-PB16-Pad39)">
+      <node ref="U1" pin="39" pinfunction="PB16" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U1-PB17-Pad40)">
+      <node ref="U1" pin="40" pinfunction="PB17" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U1-PB30-Pad59)">
+      <node ref="U1" pin="59" pinfunction="PB30" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U1-PB31-Pad60)">
+      <node ref="U1" pin="60" pinfunction="PB31" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U4-P4-Pad4)">
+      <node ref="U4" pin="4" pinfunction="P4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U5-NC-Pad5)">
+      <node ref="U5" pin="5" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U5-NC-Pad8)">
+      <node ref="U5" pin="8" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U5-NC-Pad10)">
+      <node ref="U5" pin="10" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+  </nets>
+</export>

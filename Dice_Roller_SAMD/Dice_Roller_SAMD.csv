@@ -1,0 +1,41 @@
+Source:,E:\Stanford School\EE 156\Assignment\Project\Dice_Roller_SAMD\Dice_Roller_SAMD.kicad_sch,,,,,,,,,,,,,,
+Date:,12/24/2023 9:42:01 AM,,,,,,,,,,,,,,
+Tool:,Eeschema 7.0.7,,,,,,,,,,,,,,
+Generator:,D:\Program Files\KiCad\7.0\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,,,,,,,,,,
+Component Count:,64,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+Collated Components:,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+Item,Qty,Purchase Qty,Reference(s),Value,LibPart,Footprint,Datasheet,DNP,Supplier,Part#,Product#,MANUFACTURER,MAXIMUM_PACKAGE_HEIGHT,PARTREV,check
+1,5,8,"C1, C2, C3, C7, C11",10uF,Adafruit Feather STM32F405 Express-eagle-import:microbuilder_CAP_CERAMIC0805-NOOUTLINE,MC3479:G-21_MUR,,,Digikey,1276-2399-1-ND,CL21A106KOCLRNC,,,,x
+2,6,8,"C4, C5, C6, C10, C12, C13",1uF,Adafruit Feather STM32F405 Express-eagle-import:microbuilder_CAP_CERAMIC0603_NO,Capacitor_SMD:C_0603_1608Metric,,,Digikey,1276-1102-1-ND,CL10A105KA8NNNC,,,,x
+3,2,4,"C8, C9",22pF,Adafruit Feather STM32F405 Express-eagle-import:microbuilder_CAP_CERAMIC0603_NO,Capacitor_SMD:C_0603_1608Metric,,,Digikey,478-KGM15ACG1H220JTCT-ND,KGM15ACG1H220JT,,,,x
+4,1,4,C14,0.1uF,Device:C,Capacitor_SMD:C_0603_1608Metric,,,Digikey,1276-1000-1-ND,CL10B104KB8NNNC,,,,x
+5,2,3,"CHG1, CHG3",ORANGE,Adafruit Feather STM32F405 Express-eagle-import:microbuilder_LED0805_NOOUTLINE,LED_SMD:LED_0603_1608Metric,,,Digikey,160-1445-1-ND,LTST-C191KFKT,,,,x
+6,2,3,"CHG2, L2",RED,Adafruit Feather STM32F405 Express-eagle-import:microbuilder_LED0805_NOOUTLINE,LED_SMD:LED_0603_1608Metric,,,Digikey,160-1447-1-ND,LTST-C191KRKT,,,,x
+7,1,2,D1,MBR054,Adafruit Feather STM32F405 Express-eagle-import:microbuilder_DIODE-SCHOTTKYSOD-123,Diode_SMD:D_SOD-123,,,Digikey,MBR0540TPMSCT-ND,MBR0540-TP,,,,x
+8,1,1,D2,QSB34CGR,QSB34CGR:QSB34CGR,MC3479:XDCR_QSB34CGR,,,Digikey,QSB34CGRCT-ND,QSB34CGR,Onsemi,1.8,9,x
+9,1,2,J1,USB_C_Receptacle_USB2.0,Connector:USB_C_Receptacle_USB2.0,Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,,LCSC,C319148,U262-161N-4BVC11,,,,
+10,1,0,J2,Conn_01x11,Connector_Generic:Conn_01x11,Connector_PinHeader_2.54mm:PinHeader_1x11_P2.54mm_Vertical,~,,Digikey,,,,,,
+11,1,0,J3,Conn_01x05,Connector_Generic:Conn_01x05,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,~,,Digikey,,,,,,
+12,1,2,L1,10uH,Device:L,Capacitor_SMD:C_0805_2012Metric,~,,Digikey,445-6762-1-ND,MLZ2012N100LT000,,,,x
+13,1,1,LED1,~,Adafruit Feather STM32F405 Express-eagle-import:WS2812B3535,LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,,,Digikey,1568-COM-16347CT-ND,COM-16347,,,,x
+14,1,0,M1,Motor_DC,Motor:Motor_DC,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~,,Digikey,,,,,,
+15,1,2,Q1,DMG3415,Adafruit Feather STM32F405 Express-eagle-import:microbuilder_MOSFET-P,MC3479:SOT95P240X105-3N,https://www.digikey.com/en/products/detail/diodes-incorporated/DMG3415U-7/2052768,,Digikey,DMG3415UDICT-ND,DMG3415U-7,,,,x
+16,6,12,"R1, R7, R8, R9, R22, R23",10K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,Digikey,RMCF0603FT10K0CT-ND,RMCF0603FT10K0,,,,x
+17,3,5,"R2, R3, R5",5.1K,Adafruit Feather STM32F405 Express-eagle-import:microbuilder_RESISTOR_0603_NOOUT,Resistor_SMD:R_0603_1608Metric,,,Digikey,RMCF0603FT5K10CT-ND,RMCF0603FT5K10,,,,x
+18,1,3,R4,1K,Adafruit Feather STM32F405 Express-eagle-import:microbuilder_RESISTOR_0603_NOOUT,Resistor_SMD:R_0603_1608Metric,,,Digikey,RMCF0603FT1K00CT-ND,RMCF0603FT1K00,,,,x
+19,3,5,"R6, R20, R21",100K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,Digikey,RMCF0603FT100KCT-ND,RMCF0603FT100K,,,,x
+20,5,7,"R10, R11, R12, R13, R14",4.7K,Device:R_US,Resistor_SMD:R_0603_1608Metric,~,,Digikey,RMCF0603FT4K70CT-ND,RMCF0603FT4K70,,,,x
+21,4,0,"R15, R16, R17, R18",10K,Device:R_US,Resistor_SMD:R_0603_1608Metric,~,,Digikey,,,,,,
+22,1,3,R19,2.2K,Device:R_US,Resistor_SMD:R_0603_1608Metric,~,,Digikey,RMCF0603FT2K20CT-ND,RMCF0603FT2K20,,,,x
+23,5,6,"RST1, SW2, SW3, SW4, SW5",~,:SWITCH_TACT_SMT_1,Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2,,,Digikey,401-1431-1-ND,KMR241GLFS,,,,x
+24,1,0,TP1,TESTPOINTROUND1.5MM,:microbuilder_TESTPOINTROUND1.5MM_1,TestPoint:TestPoint_Pad_1.5x1.5mm,,,Digikey,,,,,,
+25,1,0,TP2,TESTPOINTROUND1.5MM,Adafruit Feather STM32F405 Express-eagle-import:microbuilder_TESTPOINTROUND1.5MM,TestPoint:TestPoint_Pad_1.5x1.5mm,,,Digikey,,,,,,
+26,1,1,U1,ATSAMD51J20A-A,MCU_Microchip_SAMD:ATSAMD51J20A-A,Package_QFP:TQFP-64_10x10mm_P0.5mm,http://ww1.microchip.com/downloads/en/DeviceDoc/60001507E.pdf,,Digikey,ATSAMD51J20A-AU-ND,ATSAMD51J20A-AU,,,,x
+27,1,2,U2,25Q16,Adafruit Feather STM32F405 Express-eagle-import:microbuilder_SPIFLASH_8PIN,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,,,Digikey,W25Q16JVSNIQCT-ND,W25Q16JVSNIQ TR,,,,x
+28,1,1,U3,MCP73831T-2ACI/OT,Adafruit Feather STM32F405 Express-eagle-import:microbuilder_MCP73831/2,MC3479:SOT-23-5_MC_MCH,,,Digikey,MCP73831T-2ACI/OTCT-ND,MCP73831T-2ACI/OT,,,,x
+29,1,1,U4,AP2112-3.3,Adafruit Feather STM32F405 Express-eagle-import:microbuilder_VREG_SOT23-5,MC3479:SOT_RG1_DIO,,,Digikey,AP2112K-3.3TRG1DICT-ND,AP2112K-3.3TRG1,,,,x
+30,1,2,U5,MC3479,2023-10-30_07-51-34:MC3479,MC3479:MC3479_MEM,https://www.memsic.com/Public/Uploads/uploadfile/files/20220522/MC3479Datasheet(APS-048-0072v1.2).pdf,,Digikey,3502-MC3479CT-ND,MC3479,,,,x
+31,1,0,X1,JSTPH,Adafruit Feather STM32F405 Express-eagle-import:microbuilder_CON_JST_PH_2PIN,MC3479:CONN2_B2B-PH-K-S_JST,,,Digikey,,,,,,
+32,1,4,X2,32.768,Adafruit Feather STM32F405 Express-eagle-import:adafruit2_XTAL-3.2X1.5,MC3479:XTAL_ECS-31B_ECS,,,Digikey,XC1617CT-ND,ECS-.327-12.5-34B-TR,,,,x
